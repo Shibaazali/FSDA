@@ -1,1 +1,9 @@
-
+# To Resolve the error in MySQL while loading the data from file
+  First Run the following lines in your workbench
+  SHOW GLOBAL VARIABLES LIKE 'local_infile';
+  set global local_infile = 1;
+  Now close and reopen the workbench, When you are in the home page right click on the local instance and then click on edit connection
+  Click on advance tab and type the following line in the others section
+  OPT_LOCAL_INFILE=1
+  Then click on test connection. Once it is successful Close and reopen workbench again
+  When you try to bulk load the data use local keyword eg: Load data local infile...
