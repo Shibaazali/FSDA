@@ -10,3 +10,8 @@
                                   ---or---
   Open my file from the (C:\ProgramData\MySQL\MySQL Server 8.0) this location and open the my file search for (secure-file-priv) 
   and edit like this secure-file-priv="" and save the file then restart the Workbench.
+  
+  
+  
+ # ANAND JHA (SQL DATA file)
+    https://github.com/anandjha90/iNeuron_FSDA/blob/main/DEMO_SQL_TABLE.docx
